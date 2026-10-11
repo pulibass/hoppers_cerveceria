@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/.next-review-backup/
+/.tmp-test/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# production
+/build
+/coverage
+
+# env files (never commit real keys)
+.env
+.env*.local
+.env.development
+.env.production
+
+# vercel
+.vercel
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
