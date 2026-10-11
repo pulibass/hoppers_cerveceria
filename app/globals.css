@@ -119,10 +119,6 @@ button { font: inherit; color: inherit; }
 
 .hero-actions { margin-top: 24px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
 
-.hero-leaf { position: absolute; width: 112px; color: var(--green-deep); opacity: 0.9; pointer-events: none; }
-.hero-leaf-left { left: -34px; top: 22px; transform: rotate(-24deg); }
-.hero-leaf-right { right: -30px; bottom: 12px; width: 92px; transform: rotate(160deg); color: #3d6628; }
-.hero-chili { position: absolute; right: 22px; top: 26px; width: 30px; color: var(--red); transform: rotate(18deg); opacity: 0.95; pointer-events: none; }
 
 .pill {
   display: inline-flex;
@@ -539,10 +535,6 @@ button { font: inherit; color: inherit; }
 
 @media (min-width: 720px) {
   .hero { padding: 64px 24px 48px; }
-  .hero-leaf { width: 170px; }
-  .hero-leaf-left { left: 4%; top: 40px; }
-  .hero-leaf-right { right: 5%; bottom: 20px; width: 130px; }
-  .hero-chili { right: 18%; top: 44px; width: 38px; }
 
   .menu-section { padding-top: 48px; }
   .section-art { width: 48px; height: 48px; }

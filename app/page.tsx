@@ -1,4 +1,3 @@
-import { Chili, Leaf } from "@/components/menu/art";
 import { MenuBrowser } from "@/components/menu/menu-browser";
 import { instagramHandle, whatsappUrl } from "@/lib/menu/format";
 import { buildPublicSections } from "@/lib/menu/public-view";
@@ -40,9 +39,6 @@ export default async function Home() {
     <>
       <AuthRedirect />
       <header className="hero">
-        <Leaf className="hero-leaf hero-leaf-left" />
-        <Leaf className="hero-leaf hero-leaf-right" />
-        <Chili className="hero-chili" />
         <div className="hero-inner">
           <h1 className="logo">
             <span className="logo-name">{business.name}</span>
