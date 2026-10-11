@@ -530,6 +530,9 @@ button { font: inherit; color: inherit; }
 .footer-info div { display: grid; gap: 2px; }
 .footer-legal { max-width: 1180px; margin: 30px auto 0; padding-top: 18px; border-top: 1px dashed var(--line); display: grid; gap: 6px; font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
 .footer-legal p { margin: 0; }
+.footer-credit { max-width: 1180px; margin: 22px auto 0; padding-top: 16px; border-top: 1px dashed var(--line); text-align: center; font-size: 0.8rem; letter-spacing: 0.04em; color: var(--muted); overflow-wrap: anywhere; }
+.footer-credit a { color: var(--green); font-weight: 600; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--green) 45%, transparent); text-underline-offset: 3px; transition: color 0.2s, text-decoration-color 0.2s; }
+.footer-credit a:hover { color: #a9d37d; text-decoration-color: currentColor; }
 
 /* ---------- Larger screens ---------- */
 

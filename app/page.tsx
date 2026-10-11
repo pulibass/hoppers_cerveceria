@@ -95,6 +95,25 @@ export default async function Home() {
         {legal.length > 0 && (
           <div className="footer-legal">{legal.map(text => <p key={text}>{text}</p>)}</div>
         )}
+        <p className="footer-credit">
+          Desarrollado por{" "}
+          <a
+            href="https://digivisual.online/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DigiVisual
+          </a>
+          {" "}(
+          <a
+            href="https://www.instagram.com/_digivisual/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+          )
+        </p>
       </footer>
     </>
   );
